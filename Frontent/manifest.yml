@@ -1,0 +1,11 @@
+applications:
+  - instances: 1
+    timeout: 180
+    name: DSX-How-To-FrontEnd
+    buildpack: sdk-for-nodejs
+    command: 'npm prune --production && NODE_ENV=production npm start'
+    memory: 384MB
+    domain: mybluemix.net
+    host: funnyenough
+    env:
+      NPM_CONFIG_PRODUCTION: false

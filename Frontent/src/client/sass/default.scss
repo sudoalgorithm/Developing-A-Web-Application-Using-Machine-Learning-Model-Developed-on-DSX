@@ -1,0 +1,50 @@
+// customize your style here
+$primary: #162A35;
+$secondary: #4AD5C3;
+$light: #F9F9FB;
+
+$body-background-color: $light;
+$link: $secondary;
+
+// use the Bulma stylesheet framework
+@import "node_modules/bulma/bulma";
+@import "./nav";
+@import "./footer";
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.mx-1 {
+  margin: 0 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.mt-025 {
+  margin-top: 0.25rem;
+}
+
+.margin-top-0-35 {
+  margin-top: -0.35rem;
+}
+
+.rotate-10 img {
+  transform: rotate(-10deg);
+}
+
+.is-secondary {
+  background-color: $secondary;
+  color: $white;
+}
+
+.is-secondary:hover {
+  background-color: $secondary;
+  color: $light;
+}

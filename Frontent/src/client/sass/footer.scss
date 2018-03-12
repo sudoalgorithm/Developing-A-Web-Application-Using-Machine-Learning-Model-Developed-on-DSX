@@ -1,0 +1,15 @@
+.has-shadow-inverted {
+  box-shadow: 0 -2px 3px rgba(10, 10, 10, 0.1);
+}
+
+.light-border {
+  border: 3px solid $secondary;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+.footer.padding-y-2-5 {
+  padding: 2.5rem 0 2.5rem 0;
+}

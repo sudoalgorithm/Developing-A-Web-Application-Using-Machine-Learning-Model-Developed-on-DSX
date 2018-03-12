@@ -1,0 +1,7 @@
+applications:
+- memory: 256M
+  instances: 1
+  name: joke-sentiments-analysis
+  host: joke-sentiments-analysis
+  disk_quota: 1024M
+  buildpack: python_buildpack
