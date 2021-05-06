@@ -39,7 +39,7 @@
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "sanitize-html": "^1.16.3",
+    "sanitize-html": "^2.3.2",
     "strong-supervisor": "^6.2.0"
   },
   "devDependencies": {
